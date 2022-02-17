@@ -35,3 +35,7 @@ This is a flask post where users can can post their opinions and also can edit a
 * Bootsrap
 * HTML
 * CSS
+
+## Licence
+
+MIT License    [MIT](https://choosealicense.com/licenses/mit/)
