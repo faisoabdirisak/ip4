@@ -23,7 +23,7 @@ This is a flask post where users can can post their opinions and also can edit a
 
 * git clone ```https://github.com/faisoabdirisak/ip4.git```
 
-* cd ip3
+* cd ip4
 
 * code . or atom . based on the text editor you have.
 
