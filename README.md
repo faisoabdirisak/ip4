@@ -14,3 +14,15 @@
 
 ## Description
 This is a flask post where users can can post their opinions and also can edit and delete
+
+## Installation/Requirements
+
+#### Cloning
+
+* Open Terminal {Ctrl+Alt+T}
+
+* git clone ```https://github.com/faisoabdirisak/ip4.git```
+
+* cd ip3
+
+* code . or atom . based on the text editor you have.
