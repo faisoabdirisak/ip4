@@ -15,8 +15,8 @@ class Config:
     MAIL_USE_TLS = True
     MAIL_USERNAME = os.environ.get('EMAIL_USER')
     MAIL_PASSWORD = os.environ.get('EMAIL_PASS')
-    
-    
+
+
 class ProdConfig(Config):
     DEBUG = False
     '''
@@ -25,12 +25,12 @@ class ProdConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL').replace("://", "ql://", 1)
 
 class TestConfig(Config):
-       TESTING = True
-   
-SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:faska12@localhost/dbuser'
+    TESTING = True
+
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:faska12@localhost/dbuser'
 
 class DevConfig(Config):
     '''
@@ -40,8 +40,8 @@ class DevConfig(Config):
         Config: The parent configuration class with General configuration settings
     '''
     SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://moringa:faska12@localhost/dbuser'
-    
-    
+
+
     DEBUG = True
     ENV = 'development'
     DEVELOPMENT = True
