@@ -2,7 +2,7 @@ from flaskpitch import create_app,db
 from flaskpitch.models import User,Role,Post
 from flask_migrate import Migrate
 
-app=create_app('development')
+app=create_app('production')
 migrate=Migrate()
 migrate = Migrate(app,db)
 
