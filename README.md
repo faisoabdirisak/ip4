@@ -26,3 +26,12 @@ This is a flask post where users can can post their opinions and also can edit a
 * cd ip3
 
 * code . or atom . based on the text editor you have.
+
+
+## Technologies Used
+
+* python3.9
+* flask application
+* Bootsrap
+* HTML
+* CSS
